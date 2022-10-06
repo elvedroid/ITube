@@ -13,4 +13,7 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "ITube"
-include ':app'
+include(":app")
+include(":core:model")
+
+enableFeaturePreview("VERSION_CATALOGS")
