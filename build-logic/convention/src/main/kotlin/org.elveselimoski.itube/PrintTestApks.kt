@@ -61,7 +61,7 @@ internal abstract class PrintApkLocationTask : DefaultTask() {
 
     @TaskAction
     fun taskAction() {
-        val hasFiles = sources?.orNull?.any { directory ->
+        val hasFiles = sources.orNull?.any { directory ->
             directory.asFileTree.files.any { file ->
                 file.isFile && file.parentFile.parent.contains("build${File.separator}generated")
                     .not()
