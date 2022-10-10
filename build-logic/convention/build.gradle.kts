@@ -9,6 +9,10 @@ dependencies {
 
 gradlePlugin {
     plugins {
+        register("androidApplicationCompose") {
+            id = "itube.android.application.compose"
+            implementationClass = "AndroidApplicationComposeConventionPlugin"
+        }
         register("androidApplication") {
             id = "itube.android.application"
             implementationClass = "AndroidApplicationConventionPlugin"

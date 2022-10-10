@@ -1,5 +1,6 @@
 plugins {
     id("itube.android.application")
+    id("itube.android.application.compose")
 }
 
 android {
@@ -24,14 +25,6 @@ android {
         }
     }
 
-    buildFeatures {
-        compose = true
-    }
-    composeOptions {
-        val libs = extensions.getByType<VersionCatalogsExtension>().named("libs")
-        kotlinCompilerExtensionVersion =
-            libs.findVersion("androidxComposeCompiler").get().toString()
-    }
     packagingOptions {
         resources {
             excludes.add("/META-INF/{AL2.0,LGPL2.1}")
