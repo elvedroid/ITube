@@ -21,5 +21,9 @@ gradlePlugin {
             id = "itube.android.application.jacoco"
             implementationClass = "AndroidApplicationJacocoConventionPlugin"
         }
+        register("androidHilt") {
+            id = "itube.android.hilt"
+            implementationClass = "AndroidHiltConventionPlugin"
+        }
     }
 }

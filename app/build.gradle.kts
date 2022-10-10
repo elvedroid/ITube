@@ -2,6 +2,7 @@ plugins {
     id("itube.android.application")
     id("itube.android.application.compose")
     id("itube.android.application.jacoco")
+    id("itube.android.hilt")
 }
 
 android {
