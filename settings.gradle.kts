@@ -21,4 +21,5 @@ rootProject.name = "ITube"
 include(":app")
 include(":core:common")
 include(":core:model")
+include(":core:network")
 include(":core:testing")
