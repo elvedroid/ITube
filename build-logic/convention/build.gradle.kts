@@ -25,5 +25,9 @@ gradlePlugin {
             id = "itube.android.hilt"
             implementationClass = "AndroidHiltConventionPlugin"
         }
+        register("androidLibrary") {
+            id = "itube.android.library"
+            implementationClass = "AndroidLibraryConventionPlugin"
+        }
     }
 }
