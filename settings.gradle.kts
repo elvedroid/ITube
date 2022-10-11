@@ -15,6 +15,7 @@ dependencyResolutionManagement {
 }
 rootProject.name = "ITube"
 include(":app")
+include(":core:common")
 include(":core:model")
 
 enableFeaturePreview("VERSION_CATALOGS")
