@@ -33,5 +33,9 @@ gradlePlugin {
             id = "itube.android.library.compose"
             implementationClass = "AndroidLibraryComposeConventionPlugin"
         }
+        register("androidLibraryJacoco") {
+            id = "itube.android.library.jacoco"
+            implementationClass = "AndroidLibraryJacocoConventionPlugin"
+        }
     }
 }
