@@ -37,5 +37,9 @@ gradlePlugin {
             id = "itube.android.library.jacoco"
             implementationClass = "AndroidLibraryJacocoConventionPlugin"
         }
+        register("androidTest") {
+            id = "itube.android.test"
+            implementationClass = "AndroidTestConventionPlugin"
+        }
     }
 }
