@@ -1,4 +1,4 @@
-package org.elveselimoski.core.network
+package org.elveselimoski.core.network.youtube.model
 
 import kotlinx.serialization.Serializable
 import org.elveselimoski.core.model.VideoResource
