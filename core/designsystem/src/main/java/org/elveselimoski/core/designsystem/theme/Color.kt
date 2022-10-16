@@ -1,4 +1,4 @@
-package org.elveselimoski.itube.ui.theme
+package org.elveselimoski.core.designsystem.theme
 
 import androidx.compose.ui.graphics.Color
 
