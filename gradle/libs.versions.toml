@@ -8,10 +8,13 @@ androidxComposeMaterial3 = "1.0.0-beta03"
 androidxCore = "1.9.0"
 androidxEspresso = "3.4.0"
 androidxHiltNavigationCompose = "1.0.0"
+# Skipping version 2.6.0-alpha02 due to https://issuetracker.google.com/249686765
+androidxLifecycle = "2.6.0-alpha01"
 androidxNavigation = "2.5.2"
 androidxTestCore = "1.5.0-alpha02"
 androidxTestRules = "1.4.0"
 androidxTestRunner = "1.4.0"
+coil = "2.2.1"
 hilt = "2.42"
 jacoco = "0.8.7"
 junit4 = "4.13.2"
@@ -40,11 +43,15 @@ androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "u
 androidx-compose-ui-util = { group = "androidx.compose.ui", name = "ui-util", version.ref = "androidxCompose" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidxCore" }
 androidx-hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "androidxHiltNavigationCompose" }
+androidx-lifecycle-runtimeCompose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "androidxLifecycle" }
+androidx-lifecycle-viewModelCompose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "androidxLifecycle" }
 androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "androidxNavigation" }
 androidx-test-core = { group = "androidx.test", name = "core", version.ref = "androidxTestCore" }
 androidx-test-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "androidxEspresso" }
 androidx-test-rules = { group = "androidx.test", name = "rules", version.ref = "androidxTestRules" }
 androidx-test-runner = { group = "androidx.test", name = "runner", version.ref = "androidxTestRunner" }
+coil-kt = { group = "io.coil-kt", name = "coil", version.ref = "coil"}
+coil-kt-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil"}
 hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
 hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
 hilt-android-testing = { group = "com.google.dagger", name = "hilt-android-testing", version.ref = "hilt" }
