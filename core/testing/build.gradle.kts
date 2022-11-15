@@ -3,6 +3,10 @@ plugins {
     id("itube.android.hilt")
 }
 
+android {
+    namespace = "org.elveselimoski.core.testing"
+}
+
 dependencies {
     implementation(project(":core:common"))
 

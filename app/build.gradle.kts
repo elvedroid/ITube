@@ -7,6 +7,8 @@ plugins {
 }
 
 android {
+    namespace = "org.elveselimoski.itube"
+
     defaultConfig {
         applicationId = "org.elveselimoski.itube"
         versionCode = 1
