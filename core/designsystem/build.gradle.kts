@@ -11,7 +11,7 @@ android {
     lint {
         checkDependencies = true
     }
-    namespace = "org.elveselimoski.core.designsystem"
+    namespace = "org.elveselimoski.itube.core.designsystem"
 }
 
 dependencies {

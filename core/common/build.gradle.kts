@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "org.elveselimoski.core.common"
+    namespace = "org.elveselimoski.itube.core.common"
 }
 
 dependencies {

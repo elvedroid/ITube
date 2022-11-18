@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = "org.elveselimoski.core.navigation"
+    namespace = "org.elveselimoski.itube.core.navigation"
 }
 
 dependencies {

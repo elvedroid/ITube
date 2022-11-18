@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "org.elveselimoski.core.testing"
+    namespace = "org.elveselimoski.itube.core.testing"
 }
 
 dependencies {

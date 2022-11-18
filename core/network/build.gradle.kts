@@ -10,7 +10,7 @@ android {
     buildFeatures {
         buildConfig = true
     }
-    namespace = "org.elveselimoski.core.network"
+    namespace = "org.elveselimoski.itube.core.network"
 }
 
 secrets {
