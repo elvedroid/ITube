@@ -20,10 +20,11 @@ rootProject.name = "ITube"
 
 include(":app")
 include(":core:common")
+include(":core:data")
 include(":core:designsystem")
 include(":core:model")
 include(":core:navigation")
 include(":core:network")
 include(":core:testing")
 include(":core:ui")
-include(":core:data")
+include(":feature:trending")
