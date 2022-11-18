@@ -6,7 +6,7 @@ import kotlinx.serialization.json.Json
 import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
-import org.elveselimoski.core.network.BuildConfig
+import org.elveselimoski.itube.core.network.BuildConfig
 import org.elveselimoski.itube.core.network.youtube.YoutubeNetworkDataSource
 import org.elveselimoski.itube.core.network.youtube.model.YoutubeVideosResponse
 import retrofit2.Retrofit
